@@ -123,7 +123,7 @@ header form button img{
  ul li{
     list-style: none;
     font-size: 0.9rem;
-    padding: 8px 8px 8px 42px;
+    padding: 8px 8px 8px 16px;
     margin-bottom: 5px;
     user-select: none;
     cursor: pointer;
@@ -131,7 +131,7 @@ header form button img{
     border: 1px solid #8d3b98;
 }
 
-ul li::before{
+/* ul li::before{
     content: '';
     position: absolute;
     height: 24px;
@@ -148,7 +148,7 @@ ul li::before{
     height: 24px;
     width: 24px;
     background-image: url(https://cdn-icons-png.flaticon.com/128/10025/10025138.png);
-  }
+  } */
 
 
 ul li img{

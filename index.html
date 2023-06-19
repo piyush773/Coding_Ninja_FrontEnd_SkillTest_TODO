@@ -13,13 +13,14 @@
       <div class="todo-app">
         <header>
             <h2><img src="https://cdn-icons-png.flaticon.com/128/2387/2387679.png" alt="to-do"> To-Do List</h2>
-           <form id="add-task"><span><img src="https://cdn-icons-png.flaticon.com/128/7331/7331112.png"></span>
-                 <input type="text" id="input-box" placeholder="Add your text...">
-                 <button><img src="https://cdn-icons-png.flaticon.com/128/4903/4903802.png" alt="Add"></button>
-           </form>
+            <form id="add-task"><span><img src="https://cdn-icons-png.flaticon.com/128/7331/7331112.png"></span>
+                    <input type="text" id="input-box" placeholder="Add your text...">
+                    <button><img src="https://cdn-icons-png.flaticon.com/128/4903/4903802.png" alt="Add"></button>
+            </form>
         </header>
 
             <!-- this is the dynamic content which is coming from user input as of all the todo -->
+
         <main>
             <div class="todo-status">
                 <!-- value showing completed task , Remaining task and all -->
@@ -39,26 +40,27 @@
                 </div>
             </div>
 
+            <!-- dynamic content which is coming from user input -->
             <div class="list-container">
                  <ul id="list-container">
                     <!-- <li class="checked">ADD 1</li> -->
                 </ul>
             </div>
 
-        <!-- filter & delete btn section...  -->
-        <div class="filter-And-delete">
-            <div class="dropdown">
-                <button class="drop-btn"> Filter </button>
-                    <div class="dropdown-content">
-                    <a href="#" id="all">All</a>
-                    <a href="#" id="pending">Pending</a>
-                    <a href="#" id="completed">Completed</a>
-                    </div>
-            </div >
-            <button type="button"  id="erase-all" class="delete-all-btn">
-                Delete All
-            </button>
-        </div>
+            <!-- filter & delete btn section...  -->
+            <div class="filter-And-delete">
+                <div class="dropdown">
+                    <button class="drop-btn"> Filter </button>
+                        <div class="dropdown-content">
+                        <a href="#" id="all">All</a>
+                        <a href="#" id="pending">Pending</a>
+                        <a href="#" id="completed">Completed</a>
+                        </div>
+                </div >
+                <button type="button"  id="erase-all" class="delete-all-btn">
+                    Delete All
+                </button>
+            </div>
         </main>
     </div>
     <script src="index.js"></script>
